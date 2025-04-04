@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: customer_dim
+    description: "Customer Dimension Table"
+
+  - name: date_dim
+    description: "Conformed Date Dimension Table"
+
+  - name: employee_dim
+    description: "Employee Dimension Table"
+
+  - name: eventname_dim
+    description: "Event Name Dimension Table"
+
+  - name: fact_orderprocessing
+    description: "Fact table for processed customer orders"
+
+  - name: fact_webtraffic
+    description: "Fact table for aggregated web traffic events"
+
+  - name: ordermethod_dim
+    description: "Order Method Dimension Table"
+
+  - name: product_dim
+    description: "Product Dimension Table"
+
+  - name: store_dim
+    description: "Store Dimension Table"
+
+  - name: trafficsource_dim
+    description: "Traffic Source Dimension Table"
+
+  - name: webpage_dim
+    description: "Webpage Dimension Table"
